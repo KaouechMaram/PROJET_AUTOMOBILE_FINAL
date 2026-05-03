@@ -1,37 +1,41 @@
-🚗 Automotive Industry Analysis & Forecasts (2030)
-📊 Overview
+Automotive Industry Analysis & Forecasts (2030)
+Overview
 
-End-to-end data science project analyzing the global automotive industry (2010–2023) with forecasts to 2030, focusing on EV transition and U.S. policy impacts.
+End-to-end data science project analyzing the global automotive industry from 2010 to 2023, with forecasts up to 2030. The project focuses on electric vehicle (EV) transition and the impact of U.S. policies.
 
-🚀 Key Results
-9 interactive dashboards (executive → technical views)
-6 ML models (XGBoost, Prophet, ARIMA, Linear Regression, Ensemble)
-Best model: Ensemble (R² = 0.91)
-9 future scenarios (policy, EV adoption, supply chain risks)
-🧠 Key Insights
-🚀 Best scenario: Rapid EV transition (+10.4%)
-⚠️ Top driver: Raw material prices (28% importance)
-⚖️ Optimal strategy: Gradual EV transition
-🌍 Risk: Supply chain concentration
-🛠️ Tech Stack
-Python: pandas, numpy, scikit-learn, xgboost, prophet, statsmodels
+Key Results
+Developed 9 interactive dashboards (from executive to technical views)
+Built 6 machine learning models:
+XGBoost
+Prophet
+ARIMA
+Linear Regression
+Ensemble model (best performance)
+Best model: Ensemble with R² = 0.91
+Created 9 future scenarios based on:
+Policy changes
+EV adoption rates
+Supply chain risks
+Key Insights
+Best-case scenario: Rapid EV transition (+10.4%)
+Main driver: Raw material prices (28% importance)
+Optimal strategy: Gradual EV transition
+Major risk: Supply chain concentration
+Tech Stack
+Programming Language: Python
+Libraries: pandas, numpy, scikit-learn, xgboost, prophet, statsmodels
 Visualization: Plotly (interactive dashboards)
-ML: Regression, time series forecasting, ensemble modeling
-📁 Project Structure
-code/          # Analysis & ML pipelines
-dashboards/    # Interactive HTML dashboards
-data/          # Dataset (12K+ rows)
-models/        # Trained models (.pkl)
-reports/       # PDF + Excel reports
-▶️ Run the Project
-cd code/
+Machine Learning: Regression, time series forecasting, ensemble modeling
+Project Structure
+code/                # Analysis and ML pipelines
+dashboards/          # Interactive HTML dashboards
+data/                # Dataset (12K+ rows)
+models/              # Trained models (.pkl)
+reports/             # PDF and Excel reports
+How to Run the Project
+cd code
 pip install -r requirements.txt
 python run_analysis.py
-🎯 Use Cases
-Market analysis & forecasting
-EV strategy planning
-Risk & supply chain analysis
-Data science portfolio project
-📌 Summary
+Summary
 
-A production-ready data project combining analytics, machine learning, and business insights to support strategic decisions in the automotive industry.
+This is a production-ready data science project that combines data analysis, machine learning, and business insights to support strategic decision-making in the automotive industry.
