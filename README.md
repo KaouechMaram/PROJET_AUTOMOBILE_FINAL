@@ -40,15 +40,6 @@ The project focuses on the transition to electric vehicles (EV) and the impact o
 - **Visualization:** Plotly (interactive dashboards)  
 - **ML Techniques:** Regression, time series forecasting, ensemble modeling  
 
----
-
-## 📁 Project Structure
-code/ # Analysis and ML pipelines
-dashboards/ # Interactive HTML dashboards
-data/ # Dataset (12K+ rows)
-models/ # Trained models (.pkl)
-reports/ # PDF and Excel reports
-
 
 ---
 
